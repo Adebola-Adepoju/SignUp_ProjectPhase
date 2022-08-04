@@ -1,0 +1,251 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  background-image: url(.//background.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: relative;
+  width: 1440px;
+  height: 1307px;
+}
+
+main {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 80px;
+  position: absolute;
+  width: 566px;
+  /* height: 1036px; */
+  left: 437px;
+  top: 126px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+}
+
+#policify_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 0px;
+  gap: 12px;
+  width: 200px;
+  height: 50px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#sign_up_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 200px;
+  height: 50px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.labels {
+  text-align: justify;
+}
+
+.centre_aligned_texts {
+  text-align: center;
+}
+
+.Signup_Fields {
+  border: 2px solid rgb(100, 98, 98);
+  color: black;
+  padding-left: 2%;
+  padding-right: 70%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  text-align: left;
+}
+
+#signup_button {
+  background-color: blueviolet;
+  border: 0px;
+  color: white;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.purple_text {
+  color: blueviolet;
+}
+
+.purple_text:hover {
+  color: rgb(236, 179, 241);
+}
+
+#signup_button:hover {
+  color: ffffff;
+  background-color: rgb(236, 179, 241);
+}
+
+.other_signup_options {
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 992px) {
+  .Signup_Fields {
+    border: 2px solid rgb(100, 98, 98);
+    color: black;
+    padding-left: 2%;
+    padding-right: 30%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  #signup_button {
+    background-color: blueviolet;
+    border: 0px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url(.//background.jfif);
+    background-size: cover;
+    background-repeat: repeat;
+    /* background-position: relative; */
+    width: 992px;
+    height: calc(100% + 72px);
+  }
+
+  main {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px;
+    gap: 54px;
+    position: absolute;
+    width: 390px;
+    /* height: 1036px; */
+    left: 279px;
+    top: 87px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Signup_Fields {
+    border: 2px solid rgb(100, 98, 98);
+    color: black;
+    padding-left: 2%;
+    padding-right: 15%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  #signup_button {
+    background-color: blueviolet;
+    border: 0px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url(.//background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    width: 480px;
+  }
+
+  main {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px;
+    gap: 26px;
+    position: absolute;
+    width: 190px;
+    left: 145px;
+    top: 42px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+  }
+}
+
+/* #Or {
+  text-align: center;
+  position: relative;
+  margin: 100px auto;
+  max-width: 550px;
+}
+#Or:before {
+  background-color: #000;
+  display: block;
+  width: 120px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+#Or:after {
+  background-color: #000;
+  display: block;
+  width: 120px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+} */
